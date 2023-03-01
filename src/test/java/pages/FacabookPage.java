@@ -9,6 +9,7 @@ import utilities.Driver;
 public class FacabookPage {
 
     public FacabookPage(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

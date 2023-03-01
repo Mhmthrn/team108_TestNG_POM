@@ -9,7 +9,7 @@ public class C01_Priorty {
     /*
     testNg methodlari calistiriken standart olarak harf sirasina bakar
 
-    ancak testnh siralalmayi kontrol itmemize olanak tanir
+    ancak testng siralalmayi kontrol etmemize olanak tanir
 
 
     istedigimiz metyhoda istedigimiz priority i ile tanimlayabiliriz

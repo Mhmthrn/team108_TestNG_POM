@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a34b30-d70c-4a26-9318-6ff73cb558f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13_crossBrowserTests/C01_PozitifLoginTestiCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13_crossBrowserTests/C02_AmazonTestCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DriverCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/CrossBrowserParalelCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/ParalelMethodCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/ParalelTestCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/crossBrowserSiraliCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13_crossBrowserTests/C03_DataPovider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day13_crossBrowserTests/C04_DataProviderNegatifLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/paralelClassCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/paralelClassCalistirma.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +55,7 @@
       <recent name="tests.day12_xmlFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/CrossBrowserParalelCalistirma.xml">
-    <configuration name="C01_PozitifLoginTestiCross" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="team108_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day13_crossBrowserTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day13_crossBrowserTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13_crossBrowserTests.C01_PozitifLoginTestiCross" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C04_DataProviderNegatifLoginTest.negatifLogin">
     <configuration name="C01_PozitifLoginTestiCross.pozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
       <extension name="coverage">
@@ -98,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_AmazonTestCross.amazonTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_DataPovider.urlTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +83,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.day13_crossBrowserTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.day13_crossBrowserTests.C02_AmazonTestCross" />
-      <option name="METHOD_NAME" value="amazonTesti" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13_crossBrowserTests.C03_DataPovider" />
+      <option name="METHOD_NAME" value="urlTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_DataProviderNegatifLoginTest.negatifLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="team108_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day13_crossBrowserTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day13_crossBrowserTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.day13_crossBrowserTests.C04_DataProviderNegatifLoginTest" />
+      <option name="METHOD_NAME" value="negatifLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_DataProviderNegatifLoginTest.negatifLogin" />
+        <item itemvalue="TestNG.C03_DataPovider.urlTest" />
         <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/CrossBrowserParalelCalistirma.xml" />
         <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/crossBrowserSiraliCalistirma.xml" />
         <item itemvalue="TestNG.C01_PozitifLoginTestiCross.pozitifLoginTesti" />
-        <item itemvalue="TestNG.C01_PozitifLoginTestiCross" />
-        <item itemvalue="TestNG.C02_AmazonTestCross.amazonTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -156,5 +150,20 @@
       <updated>1677572570207</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/day13_crossBrowserTests/C04_DataProviderNegatifLoginTest.java</url>
+          <line>26</line>
+          <properties class="tests.day13_crossBrowserTests.C04_DataProviderNegatifLoginTest" method="negatifLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

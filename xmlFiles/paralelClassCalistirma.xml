@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Class lari paralel calistirma"  thread-count="2" parallel="classes"  >
+<suite name="Class lari paralel calistirma"  thread-count="2" parallel="classes" verbose="3" >
     <test name="Paralel calisma">
         <classes>
             <class name="tests.day11_POM_assertions.C02_PozitifLoginTesti"></class>
@@ -9,29 +9,46 @@
         </classes>
     </test>
 </suite>
+        <!--
+            Paralel calistirma calistiracagimiz test sayisi cok fazla oldugunda
+            toplam test calistirma suresini kisaltmak amaciyla yapilabilir
+
+            Ancak gerek webdriver olusturmada, gerekse test gecislerinde
+            olusan sebeplerden oturu
+            SIRALI calistirdigimizda tumu calisirken
+            PARALEL calistirmada FAIL olan testler cogalir
+
+            Driver class'i ve frameworkumuz paralel calismaya uygun olarak dizayn edilirse
+            paralel calistirilabilir.
+            sirali calisma icin kullanilan bir xml dosyasini
+            paralel calismaya dondurmek icin <suite> tagina 2 attribute ekleriz
+
+            1- parallel : paralel calismada gorev paylasiminin hangi seviyede oldugu
+            2- thread-count : kac tane browser'in ayni anda calisacagini belirler
+        -->
 
 
-<!--testNG de paralel browser calistirmada failed olmasini nasil engellerim?
-TestNG'de paralel tarayıcı testleri yaparken, bazı sorunlar yaşanabilir ve
-testler başarısız olabilir. Bunun nedeni genellikle aynı tarayıcıyı veya aynı
-tarayıcı oturumunu birden fazla testte kullanmanın yol açtığı uyumsuzluk sorunlarıdır.
-Bu sorunları önlemek için aşağıdaki adımları izleyebilirsiniz:
-Test senaryolarınızda farklı tarayıcıları kullanın. Örneğin, bir test senaryosunda
- Chrome tarayıcısını kullanırken diğer bir test senaryosunda Firefox tarayıcısını
- kullanabilirsiniz. Bu, aynı tarayıcıyı birden fazla testte kullanmaktan kaynaklanabilecek
- uyumsuzluk sorunlarını önleyebilir.
-Her test senaryosu için yeni bir tarayıcı oturumu başlatın. Böylece, bir test
-senaryosunda yapılan değişiklikler diğer test senaryolarını etkilemez. Ayrıca,
-farklı tarayıcı oturumları kullanmak, bir test senaryosundan diğerine geçerken
-tarayıcıda açık kalmış olan sekmelerin veya pencerelerin yanlışlıkla kapatılmasını
- önleyebilir.
-Tarayıcıların birbirleriyle uyumlu olduğundan emin olun. Örneğin, Firefox
-tarayıcısını test etmek için Selenium WebDriver'ın Firefox sürücüsünü kullanırken,
- Firefox tarayıcısının en son sürümüne sahip olduğundan emin olun. Ayrıca, farklı
- tarayıcı sürücülerinin de birbirleriyle uyumlu olduğundan emin olun.
-Tarayıcıların paralel olarak çalıştırılmasını sınırlayın. Tarayıcıların aynı anda
-çok fazla sayıda açılmamasını sağlamak, test senaryolarının daha güvenilir ve tutarlı
- olmasına yardımcı olabilir. Bu nedenle, TestNG'de paralel olarak çalıştırılan tarayıcı
-  sayısını kontrol etmek önemlidir.
-Bu adımları takip ederek, TestNG'de paralel tarayıcı testleri yaparken başarısızlık
- sorunlarını önleyebilirsiniz. -->
+        <!--testNG de paralel browser calistirmada failed olmasini nasil engellerim?
+        TestNG'de paralel tarayıcı testleri yaparken, bazı sorunlar yaşanabilir ve
+        testler başarısız olabilir. Bunun nedeni genellikle aynı tarayıcıyı veya aynı
+        tarayıcı oturumunu birden fazla testte kullanmanın yol açtığı uyumsuzluk sorunlarıdır.
+        Bu sorunları önlemek için aşağıdaki adımları izleyebilirsiniz:
+        Test senaryolarınızda farklı tarayıcıları kullanın. Örneğin, bir test senaryosunda
+         Chrome tarayıcısını kullanırken diğer bir test senaryosunda Firefox tarayıcısını
+         kullanabilirsiniz. Bu, aynı tarayıcıyı birden fazla testte kullanmaktan kaynaklanabilecek
+         uyumsuzluk sorunlarını önleyebilir.
+        Her test senaryosu için yeni bir tarayıcı oturumu başlatın. Böylece, bir test
+        senaryosunda yapılan değişiklikler diğer test senaryolarını etkilemez. Ayrıca,
+        farklı tarayıcı oturumları kullanmak, bir test senaryosundan diğerine geçerken
+        tarayıcıda açık kalmış olan sekmelerin veya pencerelerin yanlışlıkla kapatılmasını
+         önleyebilir.
+        Tarayıcıların birbirleriyle uyumlu olduğundan emin olun. Örneğin, Firefox
+        tarayıcısını test etmek için Selenium WebDriver'ın Firefox sürücüsünü kullanırken,
+         Firefox tarayıcısının en son sürümüne sahip olduğundan emin olun. Ayrıca, farklı
+         tarayıcı sürücülerinin de birbirleriyle uyumlu olduğundan emin olun.
+        Tarayıcıların paralel olarak çalıştırılmasını sınırlayın. Tarayıcıların aynı anda
+        çok fazla sayıda açılmamasını sağlamak, test senaryolarının daha güvenilir ve tutarlı
+         olmasına yardımcı olabilir. Bu nedenle, TestNG'de paralel olarak çalıştırılan tarayıcı
+          sayısını kontrol etmek önemlidir.
+        Bu adımları takip ederek, TestNG'de paralel tarayıcı testleri yaparken başarısızlık
+         sorunlarını önleyebilirsiniz. -->

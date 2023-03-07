@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!--
+    .xml dosyalari TestNG framework'umuzdeki
+    istedigimiz class, package, test method'u veya gruplari
+    toplu olarak calistirma imkani verir
+
+    Calismasini istedigimiz dosyalari
+    test hiyerarsisine uygun olarak .xml dosyamiza ekleriz
+
+    Pozitif  ve negatif login testlerinden sadece 3. yu calistirmak istiyoruz
+    bu durumda bir test methodu birde test clasi calistirmak istiyoruz
+
+    Eger calistiracagim dosyalar farki hiyerarsilere sahipse
+    1- ya ayri <test> taglarinin arasina koyariz
+    2- uygun hiyerarsi adimindan yeni bir hiyerarsi olustururuz
+-->
+<suite name="istenen methodlari calistirma">
+    <test name="mini smoke">
+
+        <classes>
+            <class name="tests.day11_POM_assertions.C03_NegatifLoginTesti">
+                <methods>
+                    <include name="negatifLogin3"></include>
+                </methods>
+            </class>
+            <class name="tests.day11_POM_assertions.C02_PozitifLoginTesti"></class>
+        </classes>
+
+    </test>
+</suite>

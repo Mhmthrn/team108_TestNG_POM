@@ -1,5 +1,6 @@
 package tests.day11_POM_assertions;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
@@ -46,7 +47,7 @@ public class C06_SoftAssert {
 
         // 10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin
         List<WebElement> optionsElementListesi=select.getOptions();
-        List<String> actualOptionsStringList= ReusableMethods.stringListeCevir(optionsElementListesi);
+        List<String> actualOptionsStringList= ReusableMethods.stringListeCevir((By) optionsElementListesi);
 
         String [] expectedArr={"Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)",
                 "China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)",

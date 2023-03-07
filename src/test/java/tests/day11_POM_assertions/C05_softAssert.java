@@ -9,7 +9,7 @@ import utilities.Driver;
 
 public class C05_softAssert {
 
-    @Test
+    @Test(groups = "smoke")
     public void amazonTessti(){
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         String expectedIcerik="amazon";

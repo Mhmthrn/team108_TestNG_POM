@@ -48,7 +48,7 @@ public class C03_NegatifLoginTesti {
 
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void negatifLogin3(){
         QdPage qdPage=new QdPage();
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

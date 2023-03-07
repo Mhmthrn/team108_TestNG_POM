@@ -5,20 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92a34b30-d70c-4a26-9318-6ff73cb558f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/QdPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Zeropage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C01_configReaderKullanimi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C02_PozitifLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C03_NegatifLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C04_HardAssert_SoftAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C05_softAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C06_SoftAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12_xmlFiles/C01_DriverSingletonPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12_xmlFiles/C02_ReusableMethodsSwitchingWindows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day12_xmlFiles/C03_RaporluPozitifLoginTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenGrubuCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenPackageleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/paralelClassCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/tumTestleriCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FacabookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FacabookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C01_Priorty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C01_Priorty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C03_BeforeAfterNotasyonlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C03_BeforeAfterNotasyonlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C04_FacebookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day10_TestNGFramework/C04_FacebookLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C02_PozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C02_PozitifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C03_NegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C03_NegatifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C05_softAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C05_softAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C06_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day11_POM_assertions/C06_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,26 +57,36 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C06_SoftAssert.webappTesti">
-    <configuration name="C04_HardAssert_SoftAssert.softAssertionTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\team108_TestNG_POM\xmlFiles" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.day12_xmlFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/paralelClassCalistirma.xml">
+    <configuration name="C02_ReusableMethodsSwitchingWindows.switchingWindowsTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day11_POM_assertions.*" />
+          <option name="PATTERN" value="tests.day12_xmlFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day11_POM_assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11_POM_assertions.C04_HardAssert_SoftAssert" />
-      <option name="METHOD_NAME" value="softAssertionTesti" />
+      <option name="PACKAGE_NAME" value="tests.day12_xmlFiles" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12_xmlFiles.C02_ReusableMethodsSwitchingWindows" />
+      <option name="METHOD_NAME" value="switchingWindowsTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,16 +94,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_softAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_RaporluPozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day11_POM_assertions.*" />
+          <option name="PATTERN" value="tests.day12_xmlFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day11_POM_assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11_POM_assertions.C05_softAssert" />
+      <option name="PACKAGE_NAME" value="tests.day12_xmlFiles" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12_xmlFiles.C03_RaporluPozitifLoginTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,17 +111,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_softAssert.amazonTessti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_RaporluPozitifLoginTesti.pozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day11_POM_assertions.*" />
+          <option name="PATTERN" value="tests.day12_xmlFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day11_POM_assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11_POM_assertions.C05_softAssert" />
-      <option name="METHOD_NAME" value="amazonTessti" />
+      <option name="PACKAGE_NAME" value="tests.day12_xmlFiles" />
+      <option name="MAIN_CLASS_NAME" value="tests.day12_xmlFiles.C03_RaporluPozitifLoginTesti" />
+      <option name="METHOD_NAME" value="pozitifLoginTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,35 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_SoftAssert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/paralelClassCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day11_POM_assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day11_POM_assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11_POM_assertions.C06_SoftAssert" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/paralelClassCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_SoftAssert.webappTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="team108_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day11_POM_assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day11_POM_assertions" />
-      <option name="MAIN_CLASS_NAME" value="tests.day11_POM_assertions.C06_SoftAssert" />
-      <option name="METHOD_NAME" value="webappTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/tumTestleriCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C06_SoftAssert.webappTesti" />
-        <item itemvalue="TestNG.C06_SoftAssert" />
-        <item itemvalue="TestNG.C05_softAssert" />
-        <item itemvalue="TestNG.C05_softAssert.amazonTessti" />
-        <item itemvalue="TestNG.C04_HardAssert_SoftAssert.softAssertionTesti" />
+        <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/paralelClassCalistirma.xml" />
+        <item itemvalue="TestNG.C03_RaporluPozitifLoginTesti.pozitifLoginTesti" />
+        <item itemvalue="TestNG.C03_RaporluPozitifLoginTesti" />
+        <item itemvalue="TestNG.C02_ReusableMethodsSwitchingWindows.switchingWindowsTesti" />
+        <item itemvalue="TestNG.C:/Users/USER/IdeaProjects/team108_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
